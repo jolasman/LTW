@@ -1,0 +1,3 @@
+1- Dados dos users: nome, idade, nacionalidade, género, email, NomeUtilizador, PASSWORD, lista de de polls a q respondeu e respostas dadas(para cada poll há uma lista de respostas dadas e uma data em q foi respondido), lista de polls criados,
+
+2- Dados de cada poll: nome, nome do autor, data de criação, descrição, dados da imagem, lista de perguntas(para cada pergunta há uma lista de respostas possiveis), estatisticas, 
