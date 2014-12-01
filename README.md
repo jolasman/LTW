@@ -5,7 +5,7 @@ LTW
 Requirements:
 The minimum expected requirements are the following:
 
-Users should be able to register an account.
+Users should be able to register an account.;
 Users should be able to login/logout from the system.
 Registered users should be able to create a poll.
 Registered users should be able to manage their polls.
