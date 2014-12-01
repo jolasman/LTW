@@ -20,7 +20,7 @@
 	</div>
 	<div id="content">
 	  <div class="item">
-		<h3>Welkome <?php
+		<h3>Welcome <?php
 
 
 	include 'users.php'; /* ficheiro q contem varias funcoes relacionadas com a gestao dos users */
