@@ -71,7 +71,7 @@ background-size: 56%;
 	
 	form.registerForm
 	{
-	margin: 10px 0px;;
+	margin: 10px 0px;
 	width: 370px;
 	height: 220px;
 	font-weight: bold;
@@ -97,6 +97,8 @@ background-size: 56%;
 	position: relative;
 	left : 0px;
 	width : 70px;
-	backgroun-color:CCCCAA;
+	background-color:#00CC00;
+	font-family: verdana, sans-serif;
+	font-weight: bold;
 	}
 	

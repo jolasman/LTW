@@ -4,10 +4,11 @@
 	 
 	body {
 	  width: 900px;
-	  height: 700px;
+	  height: 620px;
 	  margin: 0px auto;
 	  font-family: times, serif;
 	  background-color: #ffffff;
+	  
 	}
 	 
 	h1{
@@ -34,46 +35,51 @@
 	  p{
 	margin: 15px;
 	  font-family: verdana, sans-serif;
-	  
 	 }
-	 
-	 
+	 	 
 	#header {
 	  background-color: #003366;
 	  color: #ffffff;
-	font-family: verdana, sans-serif;
-	  	  font-weight: bold;
+	  font-family: verdana, sans-serif;
+	  font-weight: bold;	  
 	}
-	 
-	
-	 
+	 	 
 	#footer {
-	
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 10px;
+	width: 15em;
+	right: 100px;
 	font-family: verdana, sans-serif;
-	 	text-align: center;
-	 font-weight: bold;
 
-	  
+	font-weight: bold;
 	}
 	
 	#content {
 	font-family: verdana, sans-serif;
-	  
-	  font-weight: bold;
-	  margin: 10px;
-	height: 200px;
-	
-	background: url(../img/Poll_360.jpg);
-background-repeat:no-repeat;
-
-background-position: center;
-
-background-size: 10%;
-	
-	
+	font-weight: bold;
+	margin: 10px;
+	height: 280px;
+	width: 500px;
+	display: block;
+	position: relative;
+	line-height: 1.5;
+	background-color: #CCCCCC;
+	margin-top: 10px;
+					
+			
 	}
 	
+	form.pollForm
+	{
+	font-family: verdana, sans-serif;
+	font-weight: bold;
+	margin: 10px;
+	font-size: 0.9em;
 
+	}
+	
+	
 	span{
 	color:red;
 	}
@@ -84,12 +90,54 @@ background-size: 10%;
 	color: white;
 	 margin: 5px;
 	 font-weight: bold;
+	 display: block;
+	position: relative;
+	line-height: 1.5;
 	}
 	
-	form.registerForm
+	input
 	{
-	font-weight: bold;
-	margin: 15px;
-	color: black;
+	position: absolute;
+	margin-left: 10px;
+	width: 15em;
+	left: 150px;
 	}
+	
+	.buttons
+	{
+	position: relative;
+	left : 0px;
+	width : 70px;
+	background-color: #FF0000;
+	font-family: verdana, sans-serif;
+	font-weight: bold;
+	}
+	
+	.buttons2
+	{
+	position: relative;
+	left : 0px;
+	width : 75px;
+	background-color: #00CC00;
+	font-family: verdana, sans-serif;
+	font-weight: bold;
+	}
+	
+	button
+	{
+	position: relative;
+	left : 0px;
+	width : 115px;
+	background-color: #99FF66;
+	font-family: verdana, sans-serif;
+	font-weight: bold;
+	}
+	
+	label
+	{
+	margin : 21px;
+	width: 15em;
+	}
+	
+	
 	

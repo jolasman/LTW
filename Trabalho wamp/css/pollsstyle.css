@@ -35,47 +35,39 @@
 	margin: 15px;
 	  font-family: verdana, sans-serif;
 	 }
-	 
-	 
+	 	 
 	#header {
 	  background-color: #003366;
 	  color: #ffffff;
-	  
+	  font-family: verdana, sans-serif;
+	  font-weight: bold;	  
 	}
-	 
-	
-	 
+	 	 
 	#footer {
-	
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 10px;
+	width: 15em;
+	right: 100px;
 	font-family: verdana, sans-serif;
-	  	 	text-align: center;
 
-	  font-weight: bold;
+	font-weight: bold;
 	}
 	
 	#content {
 	font-family: verdana, sans-serif;
-	  
-	  font-weight: bold;
-	  margin: 10px;
+	font-weight: bold;
+	margin: 10px;
 	height: 200px;
-	
-	background: url(../img/Poll_360.jpg);
-background-repeat:no-repeat;
-
-background-position: center;
-
-background-size: 10%;
-	
-	
+	width: 300px;
+	display: block;
+	position: relative;
+	line-height: 1.5;
+	background-color: #CCCCCC;
+	margin-top: 10px;
+			
 	}
 	
-	#header {
-	font-family: verdana, sans-serif;
-	  	  font-weight: bold;
-	 
-	}
-
 	span{
 	color:red;
 	}
@@ -86,12 +78,32 @@ background-size: 10%;
 	color: white;
 	 margin: 5px;
 	 font-weight: bold;
+	 display: block;
+	position: relative;
+	line-height: 1.5;
 	}
 	
-	form.registerForm
+	input
 	{
+	position: absolute;
+	margin-left: 10px;
+	width: 15em;
+	left: 0px;
+	}
+	
+	.buttons
+	{
+	position: relative;
+	left : 0px;
+	width : 75px;
+	background-color: #FF0000;
+	font-family: verdana, sans-serif;
 	font-weight: bold;
-	margin: 15px;
-	color: black;
+	}
+	
+	label
+	{
+	margin : 21px;
+	width: 15em;
 	}
 	

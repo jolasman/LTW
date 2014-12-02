@@ -96,8 +96,10 @@ background-size: 20%;
 	{
 	position: relative;
 	left : 0px;
-	width : 70px;
-	backgroun-color:CCCCAA;
+	width : 75px;
+	background-color:#00CC00;
+	font-family: verdana, sans-serif;
+	font-weight: bold;
 	}
 	
 	
