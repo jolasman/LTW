@@ -24,7 +24,7 @@ function item_exists($item_value,$item_type) /* funcao q verifica se ha algum va
    if($IDf['id'])
    {
 	 return true;
-   } 
+   }
    else
    {
      return false;

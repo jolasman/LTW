@@ -5,7 +5,7 @@
 	content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
 	<title>yourPoll - Register</title>
 	<meta charset="UTF-8" />
-	
+	<!-- <link rel="stylesheet" href="../css/style.css" /> -->
 	<!-- Load jQuery from Google's CDN -->
     <!-- Load jQuery UI CSS  -->
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
@@ -14,9 +14,10 @@
     <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <!-- Load jQuery UI Main JS  -->
     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-	<script type="text/javascript" src="../js/script.js"></script>
+	<script type="text/javascript" src="../js/register.js"></script>
 	
-	<link rel="stylesheet" href="../css/style.css" />
+	
+	
 	
 	<?php include 'registerProcess.php';?> <!--include do ficheiro q faz todo o processo de registo do user apos clicar no botao confirm -->
 	

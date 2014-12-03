@@ -6,7 +6,7 @@
 	<title>yourPoll - Register</title>
 	<meta charset="UTF-8" />
 	
-	<link rel="stylesheet" href="../css/style.css" />
+	<link rel="stylesheet" href="../css/loginstyle.css" />
 	
 	<?php include 'loginProcess.php';?> <!--include do ficheiro q faz todo o processo de login do user apos clicar no botao confirm -->
 	

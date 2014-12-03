@@ -6,17 +6,15 @@
 	<title>yourPoll - Create Poll</title>
 	<meta charset="UTF-8" />
 	<script type="text/javascript" src="../js/script.js"></script>
-	<link rel="stylesheet" href="../css/style.css" />
-
+	<link rel="stylesheet" href="../css/createpollstyle.css" />
+	<?php include 'createPollProcess.php';?> <!--include do ficheiro q faz todo o processo de criacao do user apos clicar no botao confirm -->
   </head>
   
   <body>
 	<div id="header">
 	  <h2>Create Poll</h2>
 	  <?php
-		session_start();
 		include 'header.php';  
-		include 'users.php'; /* ficheiro q contem varias funcoes relacionadas com a gestao dos users */
 		?>
 	</div>
 	
@@ -36,31 +34,7 @@
 		<script>		
 			var i = 3;
 		</script>
-		<?php
 	
-	include 'polls.php';
-	include 'connection.php';		
-	if(isset($_GET['action'])=='submitfunc') /* quando se clica no botao confirm do ficheiro login.php faz com q esta condicao seja satisfeita */
-	{
-		$usr=$_SESSION['username'];
-		$usrid=getUserId($usr);
-		/* $db->exec('PRAGMA foreign_keys = ON;'); */
-		$quest= $_POST['pollquestion'];
-
-		$db->exec("INSERT INTO Polls (ownerId, question) VALUES ('$usrid', '$quest')");
-		$pollId= $db->lastInsertRowID();
-		$count = count($_POST);
-		$i=1;
-
-		while($i <=  $count-2 ){
-		if(!empty($_POST['answer'.$i])){
-		$ansr= $_POST['answer'.$i];
-		$db->exec("INSERT INTO PollAnswers (pollId, answer) VALUES ('$pollId', '$ansr')");
-		}
-		$i++;
-		}
-		}
-	?>		
 	
 		<p>
 		  <span>*</span> required fields

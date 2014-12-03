@@ -30,6 +30,6 @@ CREATE TABLE UserAnswer
 (
 	pollId	INTEGER REFERENCES Polls,
 	userId	INTEGER REFERENCES Users,
-	answer	INTEGER REFERENCES PollAnswers,
+	answerId INTEGER REFERENCES PollAnswers(answerId),
 	PRIMARY KEY(pollId, userId)
 );
