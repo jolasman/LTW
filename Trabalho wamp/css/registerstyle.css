@@ -4,7 +4,7 @@
 	 
 	body {
 	  width: 900px;
-	  height: 570px;
+	  height: 580px;
 	  margin: 0px auto;
 	  font-family: times, serif;
 	  background-color: #ffffff;
@@ -73,7 +73,7 @@ background-size: 56%;
 	{
 	margin: 10px 0px;
 	width: 370px;
-	height: 220px;
+	height: 230px;
 	font-weight: bold;
 	margin: 15px;
 	color: black;
@@ -95,8 +95,9 @@ background-size: 56%;
 	.buttons
 	{
 	position: relative;
-	left : 0px;
+	left : 265px;
 	width : 70px;
+	top: 10px;
 	background-color:#00CC00;
 	font-family: verdana, sans-serif;
 	font-weight: bold;
