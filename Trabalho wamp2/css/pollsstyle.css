@@ -91,7 +91,24 @@ background-size: 10%;
 	form.registerForm
 	{
 	font-weight: bold;
-	margin: 15px;
 	color: black;
 	}
 	
+	#menu ul
+	{		
+		text-align: center;
+	}
+	
+	#menu li
+	{
+		display: inline;
+		background-color: #225577;
+		border-radius: 5px;
+		padding: 15px;
+		margin-right: 10px;
+	}
+	
+	#menu li a
+	{
+		text-decoration: none;
+	}
