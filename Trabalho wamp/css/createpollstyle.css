@@ -66,8 +66,8 @@
 	line-height: 1.5;
 	background-color: #CCCCCC;
 	margin-top: 10px;
-					
-			
+	
+		
 	}
 	
 	form.pollForm
@@ -138,6 +138,13 @@
 	margin : 21px;
 	width: 15em;
 	}
+	
+	#img
+	{
+	position: absolute;
+	right:320px;
+	top:380px;
+}
 	
 	
 	
