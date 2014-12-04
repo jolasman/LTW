@@ -22,6 +22,7 @@
 	</div>
 
 	<div id="img">	<img src="../img/poll2.jpg" alt="Smiley face" height="200" width="200"> </div>
+	
 	<div id="content">
 		<?php if (isset($_SESSION['username'])) {?>
 		<h3>Please fill the fields to create yourPoll:</h3>

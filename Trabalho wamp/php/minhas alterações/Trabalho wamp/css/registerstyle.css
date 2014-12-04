@@ -1,0 +1,105 @@
+	html {
+	  background-color: #33CCFF  ;
+	}
+	 
+	body {
+	  width: 900px;
+	  height: 580px;
+	  margin: 0px auto;
+	  font-family: times, serif;
+	  background-color: #ffffff;
+	}
+	 
+h1{
+	color: green;
+	padding: 10px;
+	text-align: center;
+	  font-family: verdana, sans-serif;
+	 }
+	 
+	 
+	 h2{
+	 color: red;
+	padding: 10px;
+	text-align: center;
+	  font-family: verdana, sans-serif;
+	 }
+	 h3{
+	margin: 20px;
+	  font-family: verdana, sans-serif;
+	 }
+	 
+	 
+	  p{
+	margin: 15px;
+	  font-family: verdana, sans-serif;
+	 }
+	 
+	 
+	#header {
+	  background-color: #003366;
+	  color: #ffffff;
+	  padding: 20px;
+	}
+	 
+
+	 	div.item  {
+background: url(../img/register.jpg);
+background-repeat:no-repeat;
+
+background-position:right;
+background-size: 56%;
+	}
+	 
+	#footer {
+	  font-family: verdana, sans-serif;
+	  padding: 0 10px;
+	  font-weight: bold;
+	}
+
+	span{
+	color:red;
+	}
+	
+	a 
+	{
+	font-family: verdana, sans-serif;
+	color: blue;
+	 margin: 5px;
+	 
+	}
+	
+	form.registerForm
+	{
+	margin: 10px 0px;
+	width: 370px;
+	height: 230px;
+	font-weight: bold;
+	margin: 15px;
+	color: black;
+	background-color: #CCCCCC;
+	
+	display: block;
+	position: relative;
+	line-height: 1.5;
+	}
+	
+	input
+	{
+	position: absolute;
+	margin-left: 20px;
+	width: 15em;
+	left: 130px;
+	
+	}
+	.buttons
+	{
+	position: relative;
+	left : 265px;
+	width : 70px;
+	top: 10px;
+	background-color:#00CC00;
+	font-family: verdana, sans-serif;
+	font-weight: bold;
+	}
+	

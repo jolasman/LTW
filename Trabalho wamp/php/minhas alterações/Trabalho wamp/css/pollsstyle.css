@@ -1,0 +1,138 @@
+	html {
+	  background-color: #33CCFF  ;
+	}
+	 
+	body {
+	  width: 900px;
+	  
+	  margin: 0px auto;
+	  font-family: times, serif;
+	   background-color: #FFFFFF;
+	}
+	 
+	h1{
+	color: green;
+	padding: 10px;
+	text-align: center;
+	  font-family: verdana, sans-serif;
+	 }
+	 
+	 
+	 h2{
+	 color: red;
+	padding: 10px;
+	text-align: center;
+	  font-family: verdana, sans-serif;
+	 }
+	 
+	 h3{
+	margin: 20px;
+	  font-family: verdana, sans-serif;
+	 }
+	 
+	 
+	  p{
+	margin: 15px;
+	  font-family: verdana, sans-serif;
+	 }
+	 	 
+	#header {
+	  background-color: #003366;
+	  color: #ffffff;
+	  font-family: verdana, sans-serif;
+	  font-weight: bold;
+	  
+	}
+	 	 
+	#footer {
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 10px;
+	width: 15em;
+	right: 100px;
+	font-family: verdana, sans-serif;
+
+	font-weight: bold;
+	}
+	
+	#content {
+	font-family: verdana, sans-serif;
+	font-weight: bold;
+	
+	width: 300px;
+	display: block;
+	position: relative;
+	left: 300px;
+	line-height: 1.5;
+	background-color: #33CCCC;
+	margin-top: 10px;
+	border: 3px solid grey;
+	paddin: 3px 10px;
+	 background-color: #33CCCC;
+	text-align: center;		
+	}
+	
+	span{
+	color:red;
+	}
+	
+	a 
+	{
+	font-family: verdana, sans-serif;
+	color: black;
+	 margin: 5px;
+	 font-weight: bold;
+	 display: block;
+	position: relative;
+	line-height: 1.5;
+	border: 3px solid grey;
+	paddin: 3px 10px;
+	 background-color: #33CCCC;
+	 width: 145px;
+	}
+	
+	input
+	{
+	position: absolute;
+	margin-left: 10px;
+	width: 15em;
+	left: 0px;
+	}
+	
+	.buttons
+	{
+	position: relative;
+	left : 0px;
+	width : 75px;
+	background-color: #FF0000;
+	font-family: verdana, sans-serif;
+	font-weight: bold;
+	}
+	
+	label
+	{
+	color: black;
+	margin : 21px;
+	width: 17em;
+	border: 3px solid grey;
+	paddin: 3px 10px;
+	 background-color: #33CCCC;
+	 width: 150px;
+	}
+	
+	
+	#img
+	{
+	position: absolute;
+	right:270px;
+	top:360px;
+	
+	}
+	
+	#img2
+	{
+	position: absolute;
+	left:280px;
+	top:360px;
+}
+	

@@ -11,6 +11,8 @@
   </head>
   
 		<body>
+		
+		
 			<div id="header">
 				 <h2>Polls created</h2>
 				<?php
@@ -19,6 +21,13 @@
 					include 'users.php'; /* ficheiro q contem varias funcoes relacionadas com a gestao dos users */
 				?> 
 			</div>
+			
+			
+			<div id="img">	<img src="../img/created.jpg" alt="Smiley face" height="100" width="100"> </div>
+			
+			<div id="img2">	<img src="../img/created2.jpg" alt="Smiley face" height="100" width="100"> </div>
+			
+			
 			
 			<div id="content">
 				<?php if (isset($_SESSION['username'])) {
