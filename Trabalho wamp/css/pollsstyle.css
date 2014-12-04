@@ -40,7 +40,8 @@
 	  background-color: #003366;
 	  color: #ffffff;
 	  font-family: verdana, sans-serif;
-	  font-weight: bold;	  
+	  font-weight: bold;
+	  
 	}
 	 	 
 	#footer {
@@ -75,12 +76,16 @@
 	a 
 	{
 	font-family: verdana, sans-serif;
-	color: white;
+	color: black;
 	 margin: 5px;
 	 font-weight: bold;
 	 display: block;
 	position: relative;
 	line-height: 1.5;
+	border: 3px solid grey;
+	paddin: 3px 10px;
+	 background-color: #33CCCC;
+	 width: 145px;
 	}
 	
 	input
@@ -103,7 +108,12 @@
 	
 	label
 	{
+	color: black;
 	margin : 21px;
-	width: 15em;
+	width: 17em;
+	border: 3px solid grey;
+	paddin: 3px 10px;
+	 background-color: #33CCCC;
+	 width: 150px;
 	}
 	
