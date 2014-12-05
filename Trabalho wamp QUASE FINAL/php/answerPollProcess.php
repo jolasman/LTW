@@ -6,7 +6,7 @@
 	<title>yourPoll - Create Poll</title>
 	<meta charset="UTF-8" />
 	<script type="text/javascript" src="../js/script.js"></script>
-	<link rel="stylesheet" href="../css/createpollstyle.css" />
+	<link rel="stylesheet" href="../css/answerPollProcessstyle.css" />
 	<?php /* include 'answerPollProcess.php'; */?> <!--include do ficheiro q faz todo o processo de criacao do user apos clicar no botao confirm -->
   <?php
   
@@ -27,6 +27,14 @@ exit;} */
 		include 'header.php';  
 		?>
 	</div>
+	
+	
+		<div id="img">	<img src="../img/created.jpg" alt="Smiley face" height="100" width="100"> </div>
+			
+			<div id="img2">	<img src="../img/created2.jpg" alt="Smiley face" height="100" width="100"> </div>
+
+			
+			
 	
 	<div id="content">
 		<?php 
@@ -61,7 +69,7 @@ echo "<p>" . "Choose answer:" . "</p>";
 	echo '<p>' . '<input type="radio" name="answer" value='.$row['answerId'].'>' . " " . $row['answer'] . '</p>';
 	$i++;
 	}
-	echo '<p>' . '<input type="submit" value="Confirm" name="submit" >' . '</p>';
+	echo '<p>' . '<input class= "buttons2" type="submit" value="Confirm" name="submit" >' . '</p>';
 	echo '<p>' . '</form>' . '</p>';
 
 	if( isset ($_POST['answer'])){

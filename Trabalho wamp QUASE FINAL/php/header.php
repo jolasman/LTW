@@ -21,7 +21,7 @@
       <?php if (isset($_SESSION['username'])) { ?>
       <form action="logoutProcess.php" method="post">
         <label><?=$_SESSION['username']?></label>
-        <input type="submit" value="Logout">
+        <input class="buttons" type="submit" value="Logout">
       </form>
       <?php } else { ?>
 	  <a href="login.php">Login</a> <!-- chama a pagina de login -->

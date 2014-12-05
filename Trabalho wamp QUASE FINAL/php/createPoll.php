@@ -18,6 +18,9 @@
 		?>
 	</div>
 	
+	<div id="img">	<img src="../img/poll2.jpg" alt="Smiley face" height="200" width="200"> </div>
+	
+	
 	<div id="content">
 		<?php if (isset($_SESSION['username'])) {?>
 		<h3>Please fill the fields to create yourPoll:</h3>
@@ -28,7 +31,7 @@
 			Answer 2: <span>* </span><input type="textarea" name="answer2" required="required"><br>
 			<div id='newAnswer'> </div>
 			<button onclick="addAnswer(); return false;">add answer</button><br>
-			<input type="submit" value="Confirm" name="submit" >
+			<input class= "buttons2" type="submit" value="Confirm" name="submit" >
 		</form>
 	
 		<script>		

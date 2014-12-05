@@ -18,6 +18,12 @@
 				?> 
 			</div>
 			
+			
+			<div id="img">	<img src="../img/created.jpg" alt="Smiley face" height="100" width="100"> </div>
+			
+			<div id="img2">	<img src="../img/created2.jpg" alt="Smiley face" height="100" width="100"> </div>
+			
+			
 			<div id="content">
 				<?php if (isset($_SESSION['username'])) {
 					include 'polls.php';

@@ -5,7 +5,7 @@
 	content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
 	<title>yourPoll - Polls created</title>
 	<meta charset="UTF-8" />
-	<link rel="stylesheet" href="../css/pollsstyle.css" />
+	<link rel="stylesheet" href="../css/answaredPollsstyle.css" />
   </head>
 
 		<body>
@@ -18,6 +18,12 @@
 					include 'polls.php'; 
 				?> 
 			</div>
+			
+			
+			<div id="img">	<img src="../img/created.jpg" alt="Smiley face" height="100" width="100"> </div>
+			
+			<div id="img2">	<img src="../img/created2.jpg" alt="Smiley face" height="100" width="100"> </div>
+			
 			
 			<div id="content">
 				<?php if (isset($_SESSION['username'])) {

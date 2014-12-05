@@ -4,11 +4,10 @@
 	 
 	body {
 	  width: 55em;
-	  height: 38em;
-	  margin: 0em auto;
-	  font-family: times, serif;
-	  background-color: #ffffff;
 	  
+	  margin: 0px auto;
+	  font-family: times, serif;
+	   background-color: #FFFFFF;
 	}
 	 
 	h1{
@@ -23,7 +22,7 @@
 	 color: red;
 	padding: 0.4em;
 	text-align: center;
- font-family: time new roman, sans-serif;
+	  font-family: time new roman, sans-serif;
 	  font-weight: bold;
 	  font-size: 1.6em;
 	 }
@@ -48,9 +47,10 @@
 	}
 	 	 
 	#footer {
-	position: realtive;
-	width: 15em;
+	position: relative;
 	
+	width: 15em;
+
 	font-family: verdana, sans-serif;
 
 	font-weight: bold;
@@ -59,31 +59,24 @@
 	#content {
 	font-family: verdana, sans-serif;
 	font-weight: bold;
-	margin: 10px;
-	height: 21em;
-	width: 28em;
+	margin: 1em;
+	width: 35em;
 	display: block;
 	position: relative;
-	line-height: 2.2;
-	background-color: #CCCCCC;
-	margin-top: 10px;
+	left: 10em;
+	line-height: 1.5;
+	background-color: #33CCCC;
+	margin-top: 0.2em;
+	border: 3px solid grey;
+	paddin: 10px 10px 10px 10px;
 	
-		
+	text-align: center;		
 	}
-	
-	form.pollForm
-	{
-	font-family: verdana, sans-serif;
-	font-weight: bold;
-	margin: 1em;
-	font-size: 0.9em;
-
-	}
-	
 	
 	span{
 	color:red;
 	}
+	
 	
 	ul
 	{
@@ -95,10 +88,9 @@
 	
 	#menu li {
   display: inline;
-  margin: 10px;
+  margin: 0.2em;
   display: inline;
-  
-  padding-right: 10px;
+  padding-right: 1.6em;
   margin-right: 0;
 }
 	
@@ -106,7 +98,7 @@
 	{
 	font-family: verdana, sans-serif;
 	color: white;
-	 margin: 20px;
+	 margin: 1.6em;
 	 font-weight: bold;
 	 
 	line-height: 1.5;
@@ -119,16 +111,16 @@
 	input
 	{
 	position: absolute;
-	margin-left: 10px;
+	margin-left: 0.2em;
 	width: 15em;
-	left: 150px;
+	left: 0em;
 	}
 	
 	.buttons
 	{
 	position: relative;
-	left : 0px;
-	width : 70px;
+	left : 0em;
+	width : 5em;
 	background-color: #FF0000;
 	font-family: verdana, sans-serif;
 	font-weight: bold;
@@ -137,20 +129,10 @@
 	.buttons2
 	{
 	position: relative;
-	left : 0em;
+	right : 15em;
 	width : 7em;
-	top:1em;
+	top:0.5em;
 	background-color: #00CC00;
-	font-family: verdana, sans-serif;
-	font-weight: bold;
-	}
-	
-	button
-	{
-	position: relative;
-	left : 0px;
-	width : 115px;
-	background-color: #99FF66;
 	font-family: verdana, sans-serif;
 	font-weight: bold;
 	}
@@ -158,22 +140,27 @@
 	label
 	{
 	color: black;
-	margin : 21px;
-	width: 15em;
+	margin : 2.2em;
+	width: 17em;
 	border: 3px solid grey;
 	paddin: 3px 10px;
 	 background-color: #33CCCC;
-	 width: 150px;
+	 width: 2em;
 	}
+	
 	
 	#img
 	{
 	position: absolute;
-	right:22em;
-	top:19em;
+	right:16em;
+	top:16em;
+	
+	}
+	
+	#img2
+	{
+	position: absolute;
+	left:16em;
+	top:16em;
 }
-
-
-	
-	
 	

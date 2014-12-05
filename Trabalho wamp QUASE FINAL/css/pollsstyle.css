@@ -3,16 +3,16 @@
 	}
 	 
 	body {
-	  width: 900px;
-	  height: 600px;
+	  width: 55em;
+	  
 	  margin: 0px auto;
 	  font-family: times, serif;
-	  background-color: #ffffff;
+	   background-color: #FFFFFF;
 	}
 	 
 	h1{
 	color: green;
-	padding: 10px;
+	padding: 0.4em;
 	text-align: center;
 	  font-family: verdana, sans-serif;
 	 }
@@ -20,78 +20,136 @@
 	 
 	 h2{
 	 color: red;
-	padding: 10px;
+	padding: 0.4em;
 	text-align: center;
-	  font-family: verdana, sans-serif;
+	  font-family: time new roman, sans-serif;
+	  font-weight: bold;
+	  font-size: 1.6em;
 	 }
 	 
 	 h3{
-	margin: 20px;
+	margin: 0.4em;
 	  font-family: verdana, sans-serif;
 	 }
 	 
 	 
 	  p{
-	margin: 15px;
+	margin: 0.4em;
 	  font-family: verdana, sans-serif;
 	 }
-	 
-	 
+	 	 
 	#header {
 	  background-color: #003366;
 	  color: #ffffff;
+	  font-family: verdana, sans-serif;
+	  font-weight: bold;
 	  
 	}
-	 
-	
-	 
+	 	 
 	#footer {
+	position: relative;
 	
-	font-family: verdana, sans-serif;
-	  	 	text-align: center;
+	width: 15em;
 
-	  font-weight: bold;
+	font-family: verdana, sans-serif;
+
+	font-weight: bold;
 	}
 	
 	#content {
 	font-family: verdana, sans-serif;
-	  
-	  font-weight: bold;
-	  margin: 10px;
-	height: 200px;
+	font-weight: bold;
 	
-	background: url(../img/Poll_360.jpg);
-background-repeat:no-repeat;
-
-background-position: center;
-
-background-size: 10%;
-	
-	
+	width: 18em;
+	display: block;
+	position: relative;
+	left: 18em;
+	line-height: 1.5;
+	background-color: #33CCCC;
+	margin-top: 0.2em;
+	border: 3px solid grey;
+	paddin: 3px 10px;
+	 background-color: #33CCCC;
+	text-align: center;		
 	}
 	
-	#header {
-	font-family: verdana, sans-serif;
-	  	  font-weight: bold;
-	 
-	}
-
 	span{
 	color:red;
 	}
+	
+	
+	ul
+	{
+	list-style: none;
+		background-color: #3366FF;
+		border: 3px solid grey;
+		 
+	}
+	
+	#menu li {
+  display: inline;
+  margin: 0.2em;
+  display: inline;
+  padding-right: 1.6em;
+  margin-right: 0;
+}
 	
 	a 
 	{
 	font-family: verdana, sans-serif;
 	color: white;
-	 margin: 5px;
+	 margin: 1.6em;
 	 font-weight: bold;
+	 
+	line-height: 1.5;
+	border: 1px solid black;
+	paddin: 3px 10px;
+	 background-color:#0066CC;
+	 
 	}
 	
-	form.registerForm
+	input
 	{
-	font-weight: bold;
-	margin: 15px;
-	color: black;
+	position: absolute;
+	margin-left: 0.2em;
+	width: 15em;
+	left: 0em;
 	}
+	
+	.buttons
+	{
+	position: relative;
+	left : 0em;
+	width : 5em;
+	background-color: #FF0000;
+	font-family: verdana, sans-serif;
+	font-weight: bold;
+	}
+	
+	label
+	{
+	color: black;
+	margin : 2.2em;
+	width: 17em;
+	border: 3px solid grey;
+	paddin: 3px 10px;
+	 background-color: #33CCCC;
+	 width: 2em;
+	}
+	
+	
+	#img
+	{
+	position: absolute;
+	right:20em;
+	top:16em;
+	
+	}
+	
+	#img2
+	{
+	position: absolute;
+	left:20em;
+	top:16em;
+}
 	
