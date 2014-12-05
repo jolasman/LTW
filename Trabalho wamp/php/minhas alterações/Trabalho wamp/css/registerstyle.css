@@ -3,8 +3,8 @@
 	}
 	 
 	body {
-	  width: 900px;
-	  height: 580px;
+	  width: 55em;
+	  height: 38em;
 	  margin: 0px auto;
 	  font-family: times, serif;
 	  background-color: #ffffff;
@@ -12,26 +12,28 @@
 	 
 h1{
 	color: green;
-	padding: 10px;
+	padding: 0.4em;
 	text-align: center;
-	  font-family: verdana, sans-serif;
+	   font-family: time new roman, sans-serif;
+	  font-weight: bold;
+	  font-size: 2.1em;
 	 }
 	 
 	 
 	 h2{
 	 color: red;
-	padding: 10px;
+	padding: 0.4em;
 	text-align: center;
 	  font-family: verdana, sans-serif;
 	 }
 	 h3{
-	margin: 20px;
+	margin: 0.4em;
 	  font-family: verdana, sans-serif;
 	 }
 	 
 	 
 	  p{
-	margin: 15px;
+	margin: 0.4em;
 	  font-family: verdana, sans-serif;
 	 }
 	 
@@ -48,7 +50,7 @@ background: url(../img/register.jpg);
 background-repeat:no-repeat;
 
 background-position:right;
-background-size: 56%;
+background-size: 52%;
 	}
 	 
 	#footer {
@@ -72,8 +74,8 @@ background-size: 56%;
 	form.registerForm
 	{
 	margin: 10px 0px;
-	width: 370px;
-	height: 230px;
+	width: 23em;
+	height: 15em;
 	font-weight: bold;
 	margin: 15px;
 	color: black;
@@ -82,22 +84,23 @@ background-size: 56%;
 	display: block;
 	position: relative;
 	line-height: 1.5;
+	padding: 8px 8px 8px 8px;
 	}
 	
 	input
 	{
 	position: absolute;
-	margin-left: 20px;
+	margin-left: 0.2em;
 	width: 15em;
-	left: 130px;
+	left: 12em;
 	
 	}
 	.buttons
 	{
 	position: relative;
-	left : 265px;
-	width : 70px;
-	top: 10px;
+	left : 20em;
+	width : 7em;
+	top: 0.2em;
 	background-color:#00CC00;
 	font-family: verdana, sans-serif;
 	font-weight: bold;

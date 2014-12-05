@@ -3,8 +3,8 @@
 	}
 	 
 	body {
-	  width: 900px;
-	  height: 400px;
+	  width: 55em;
+	  height: 24em;
 	  margin: 0px auto;
 	  font-family: times, serif;
 	  background-color: #ffffff;
@@ -12,26 +12,28 @@
 	 
 	h1{
 	color: green;
-	padding: 10px;
+	padding: 0.4;
 	text-align: center;
-	  font-family: verdana, sans-serif;
+	  font-family: time new roman, sans-serif;
+	  font-weight: bold;
+	  font-size: 2.1em;
 	 }
 	 
 	 
 	 h2{
 	 color: red;
-	padding: 10px;
+	padding: 0.4;
 	text-align: center;
 	  font-family: verdana, sans-serif;
 	 }
 	 h3{
-	margin: 20px;
+	margin: 0.4em;
 	  font-family: verdana, sans-serif;
 	 }
 	 
 	 
 	  p{
-	margin: 15px;
+	margin: 0.4em;
 	  font-family: verdana, sans-serif;
 	 }
 	 
@@ -39,7 +41,7 @@
 	#header {
 	  background-color: #003366;
 	  color: #ffffff;
-	  padding: 20px;
+	  padding: 1em;
 	}
 	 
 
@@ -65,7 +67,7 @@ background-size: 20%;
 	{
 	font-family: verdana, sans-serif;
 	color: blue;
-	 margin: 5px;
+	 margin: 0.2;
 	 
 	}
 	
@@ -81,23 +83,24 @@ background-size: 20%;
 	
 	display: block;
 	position: relative;
-	line-height: 1.5;
+	line-height: 1.8;
+	padding: 8px 8px 8px 8px;
 	}
 	
 	input
 	{
 	position: absolute;
-	margin-left: 20px;
+	margin-left: 1em;
 	width: 15em;
-	left: 70px;
+	left: 7em;
 	}
 	
 	.buttons
 	{
 	position: relative;
-	left : 0px;
-	width : 75px;
-	top: 8px;
+	left : 0em;
+	width : 6em;
+	top: 0.5em;
 	background-color:#00CC00;
 	font-family: verdana, sans-serif;
 	font-weight: bold;
