@@ -25,7 +25,7 @@
 		Username: <input type="text" name="username" required="required"><br>
 		Password: <input id="pass" type="password" name="pass" required="required" ><br>
 
-		<input type="submit" value="Confirm" name="submit">
+		<input class ="buttons" type="submit" value="Confirm" name="submit">
 		</form>
 
 	  </div>

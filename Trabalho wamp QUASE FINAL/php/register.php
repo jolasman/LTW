@@ -54,7 +54,7 @@
 		<option value="Spain">Spain</option>
 		</select required="required"><br>
 	
-		<input type="submit" value="Confirm" name="submit" >
+		<input class ="buttons" type="submit" value="Confirm" name="submit" >
 		</form>
 	
 		<p>
