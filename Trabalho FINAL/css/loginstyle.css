@@ -1,0 +1,109 @@
+	html {
+	  background-color: #33CCFF  ;
+	}
+	 
+	body {
+	  width: 55em;
+	  height: 24em;
+	  margin: 0px auto;
+	  font-family: times, serif;
+	  background-color: #ffffff;
+	}
+	 
+	h1{
+	color: green;
+	padding: 0.4;
+	text-align: center;
+	  font-family: time new roman, sans-serif;
+	  font-weight: bold;
+	  font-size: 2.1em;
+	 }
+	 
+	 
+	 h2{
+	 color: red;
+	padding: 0.4;
+	text-align: center;
+	  font-family: verdana, sans-serif;
+	 }
+	 h3{
+	margin: 0.4em;
+	  font-family: verdana, sans-serif;
+	 }
+	 
+	 
+	  p{
+	margin: 0.4em;
+	  font-family: verdana, sans-serif;
+	 }
+	 
+	 
+	#header {
+	  background-color: #003366;
+	  color: #ffffff;
+	  padding: 1em;
+	}
+	 
+
+	 	div.item  {
+background: url(../img/Poll_360.jpg);
+background-repeat:no-repeat;
+
+background-position: center;
+background-size: 20%;
+	}
+	 
+	#footer {
+	font-family: verdana, sans-serif;
+	  padding: 0 10px;
+	  font-weight: bold;
+	}
+
+	span{
+	color:red;
+	}
+	
+	a 
+	{
+	font-family: verdana, sans-serif;
+	color: blue;
+	 margin: 0.2;
+	 
+	}
+	
+	form.registerForm
+	{
+	margin: 10px 0px;
+	width: 300px;
+	height: 85px;
+	font-weight: bold;
+	margin: 15px;
+	color: black;
+	background-color: #CCCCCC;
+	
+	display: block;
+	position: relative;
+	line-height: 1.8;
+	padding: 8px 8px 8px 8px;
+	}
+	
+	input
+	{
+	position: absolute;
+	margin-left: 1em;
+	width: 15em;
+	left: 7em;
+	}
+	
+	.buttons
+	{
+	position: relative;
+	left : 0em;
+	width : 6em;
+	top: 0.5em;
+	background-color:#00CC00;
+	font-family: verdana, sans-serif;
+	font-weight: bold;
+	}
+	
+	

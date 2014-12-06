@@ -1,0 +1,179 @@
+	html {
+	  background-color: #33CCFF  ;
+	}
+	 
+	body {
+	  width: 55em;
+	  height: 38em;
+	  margin: 0em auto;
+	  font-family: times, serif;
+	  background-color: #ffffff;
+	  
+	}
+	 
+	h1{
+	color: green;
+	padding: 0.4em;
+	text-align: center;
+	  font-family: verdana, sans-serif;
+	 }
+	 
+	 
+	 h2{
+	 color: red;
+	padding: 0.4em;
+	text-align: center;
+ font-family: time new roman, sans-serif;
+	  font-weight: bold;
+	  font-size: 1.6em;
+	 }
+	 
+	 h3{
+	margin: 0.4em;
+	  font-family: verdana, sans-serif;
+	 }
+	 
+	 
+	  p{
+	margin: 0.4em;
+	  font-family: verdana, sans-serif;
+	 }
+	 	 
+	#header {
+	  background-color: #003366;
+	  color: #ffffff;
+	  font-family: verdana, sans-serif;
+	  font-weight: bold;
+	  
+	}
+	 	 
+	#footer {
+	position: realtive;
+	width: 15em;
+	
+	font-family: verdana, sans-serif;
+
+	font-weight: bold;
+	}
+	
+	#content {
+	font-family: verdana, sans-serif;
+	font-weight: bold;
+	margin: 10px;
+	height: 21em;
+	width: 28em;
+	display: block;
+	position: relative;
+	line-height: 2.2;
+	background-color: #CCCCCC;
+	margin-top: 10px;
+	
+		
+	}
+	
+	form.pollForm
+	{
+	font-family: verdana, sans-serif;
+	font-weight: bold;
+	margin: 1em;
+	font-size: 0.9em;
+
+	}
+	
+	
+	span{
+	color:red;
+	}
+	
+	ul
+	{
+	list-style: none;
+		background-color: #3366FF;
+		border: 3px solid grey;
+		 
+	}
+	
+	#menu li {
+  display: inline;
+  margin: 10px;
+  display: inline;
+  
+  padding-right: 10px;
+  margin-right: 0;
+}
+	
+	a 
+	{
+	font-family: verdana, sans-serif;
+	color: white;
+	 margin: 20px;
+	 font-weight: bold;
+	 
+	line-height: 1.5;
+	border: 1px solid black;
+	paddin: 3px 10px;
+	 background-color:#0066CC;
+	 
+	}
+	
+	input
+	{
+	position: absolute;
+	margin-left: 10px;
+	width: 15em;
+	left: 150px;
+	}
+	
+	.buttons
+	{
+	position: relative;
+	left : 0px;
+	width : 70px;
+	background-color: #FF0000;
+	font-family: verdana, sans-serif;
+	font-weight: bold;
+	}
+	
+	.buttons2
+	{
+	position: relative;
+	left : 0em;
+	width : 7em;
+	top:1em;
+	background-color: #00CC00;
+	font-family: verdana, sans-serif;
+	font-weight: bold;
+	}
+	
+	button
+	{
+	position: relative;
+	left : 0px;
+	width : 115px;
+	background-color: #99FF66;
+	font-family: verdana, sans-serif;
+	font-weight: bold;
+	}
+	
+	label
+	{
+	color: black;
+	margin : 21px;
+	width: 15em;
+	border: 3px solid grey;
+	paddin: 3px 10px;
+	 background-color: #33CCCC;
+	 width: 150px;
+	}
+	
+	#img
+	{
+	position: absolute;
+	right:22em;
+	top:19em;
+}
+
+
+	
+	
+	
